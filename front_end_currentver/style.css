@@ -122,6 +122,7 @@
   .label-field {
     position: relative;
     margin-bottom: 40px;
+    height: 40px;
   }
   .top-row:after {
     content: "";

@@ -10,16 +10,15 @@
   <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/templatemo-style.css" />
 	<style>
-		body {
-		margin-bottom: 200%;
+		body{
+			max-height: 200%;
 		}
 		.scroll {
+		max-height: 600px;
 		border: none;
 		padding: 5px;
 		font: 24px/36px sans-serif;
-		width: 200px;
-		height: 200px;
-		overflow: scroll;
+		overflow-y: scroll;
 		}
 		::-webkit-scrollbar {
 		width: 12px;
@@ -39,6 +38,7 @@
 		</style>
 </head>
 <body id=vantajs>
+	<div class="scroll">
 	<div class="row tm-brand-row">
 		<div class="col-lg-4 col-11">
 		  <div class="tm-brand-container tm-bg-white-transparent">
@@ -186,5 +186,6 @@ VANTA.NET({
 </script>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src="script.js"></script>
+</div>
 </body>
 </html>
