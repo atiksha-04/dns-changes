@@ -9,6 +9,34 @@
   <link rel="stylesheet" href="css/all.min.css" />
   <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/templatemo-style.css" />
+	<style>
+		body {
+		margin-bottom: 200%;
+		}
+		.scroll {
+		border: none;
+		padding: 5px;
+		font: 24px/36px sans-serif;
+		width: 200px;
+		height: 200px;
+		overflow: scroll;
+		}
+		::-webkit-scrollbar {
+		width: 12px;
+		height: 12px;
+		}
+		::-webkit-scrollbar-track {
+		border: 1px solid grey;
+		border-radius: 10px;
+		}
+		::-webkit-scrollbar-thumb {
+		background: grey;
+		border-radius: 10px;
+		}
+		::-webkit-scrollbar-thumb:hover {
+		background: grey;
+		}
+		</style>
 </head>
 <body id=vantajs>
 	<div class="row tm-brand-row">
@@ -21,8 +49,8 @@
 			</div>
 		  </div>
 		</div>
-		<div class="col-lg-8 col-1">
-		  <div class="tm-nav">
+		<div class="col-lg-8 col-1 ">
+		  <div class="tm-nav ">
 			<nav class="navbar navbar-expand-lg navbar-light tm-bg-white-transparent tm-navbar">
 			  <button class="navbar-toggler" type="button"
 				data-toggle="collapse" data-target="#navbarNav"
@@ -30,7 +58,7 @@
 				<span class="navbar-toggler-icon"></span>
 			  </button>
 
-			  <div class="collapse navbar-collapse" id="navbarNav">
+			  <div class="collapse navbar-collapse " id="navbarNav">
 				<ul class="navbar-nav">
 				  <li class="nav-item">
 					<div class="tm-nav-link-highlight"></div>
@@ -64,7 +92,7 @@
 		<li class="tab"><a href="#login">Log In</a></li>
 	      </ul>
 	      
-	      <div class="tab-content">
+	      <div class="tab-content ">
 		<div id="signup">   
 		  <h1>Sign Up</h1>
 		    <div class="label-field">
@@ -75,14 +103,14 @@
 		    </div>
 		  </form>
 		  
-		  <div class="label-field">
+		  <div class="label-field ">
 		    <label>
 		      Email Address<span class="req">*</span>
 		    </label>
 		    <input id=remail type="email" title ="Enter the complete email address" required autocomplete="off"/>
 		  </div>
 		  
-		  <div class="label-field">
+		  <div class="label-field ">
 		    <label>
 		      Set A Password<span class="req">*</span>
 		    </label>
@@ -90,7 +118,7 @@
 		    title="Must contain at least one number and one uppercase and lowercase letter, and at 
 		    least 8 or more characters" required autocomplete="off"/>
 		  </div>
-		  <div class="label-field">
+		  <div class="label-field ">
 		    <label>
 		      Confirm Password<span class="req">*</span>
 		    </label>
@@ -105,21 +133,21 @@
 		  <h1>Welcome Back!</h1>
 		  
 		  
-		    <div class="label-field">
+		    <div class="label-field ">
 		    <label>
 		      Email Address<span class="req">*</span>
 		    </label>
 		    <input id=lemail type="email"required autocomplete="off"/>
 		  </div>
 		  
-		  <div class="label-field">
+		  <div class="label-field ">
 		    <label>
 		      Password<span class="req">*</span>
 		    </label>
 		    <input id=lpassword type="password"required autocomplete="off"/>
 		  </div>
 
-		  <div class="label-field">
+		  <div class="label-field " >
 		    <label>
 		      Mentor Email Address<span class="req">*</span>
 		    </label>
